@@ -10,6 +10,10 @@ class Document extends DataObject {
 		'File' => 'File',
 		'Page' => 'Page'
 	);
+
+	/**
+	 * CMS
+	 */
 	
 	public function getCMSFields() {
 		$fields = parent::getCMSFields();
@@ -26,5 +30,17 @@ class Document extends DataObject {
 	public function canEdit($member = NULL) { return TRUE; } 
 	public function canDelete($member = NULL) { return TRUE; }
 	public function canView($member = NULL) { return TRUE; }
+
+	/**
+	 * Data
+	 */
+	
+	public function Title() {
+		return $this->FileID ? $this->File()->Title : NULL;
+	}
+
+	public function Link() {
+		return $this->FileID ? $this->File()->URL : NULL;
+	}
 	
 }
