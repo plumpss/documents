@@ -1,4 +1,4 @@
-# SilverStripe Docuements Module
+# SilverStripe Documents Module
 
 Adds document upload support for pages.
 
