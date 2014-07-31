@@ -10,7 +10,8 @@
 		"email": "james@plumpdigital.co.uk"
 	}],
 	"require": {
-		"silverstripe/framework": ">=3.0.1"
+		"silverstripe/framework": ">=3.0.1",
+		"undefinedoffset/sortablegridfield": ">=0.3.1"
 	},
 	"support": {
 		"issues": "https://github.com/plumpdigital/plump_documents/issues"
