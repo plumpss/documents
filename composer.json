@@ -1,0 +1,21 @@
+{
+	"name": "plumpss/documents",
+	"description": "SilverStripe module for attaching documents to pages.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "module", "documents"],
+	"license": "MIT",
+	"authors": [
+	{
+		"name": "James Howard",
+		"email": "james@plumpdigital.co.uk"
+	}],
+	"require": {
+		"silverstripe/framework": ">=3.0.1"
+	},
+	"support": {
+		"issues": "https://github.com/plumpdigital/plump_documents/issues"
+	},
+	"extra": {
+		"installer-name": "plumpss_documents"
+	}
+}
