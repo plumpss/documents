@@ -16,15 +16,15 @@ class DocumentsPageExtension extends DataExtension {
 		$config->addComponent(new GridFieldSortableRows('SortOrder'));
 		
 		$config->getComponentByType('GridFieldDataColumns')->setDisplayFields(array(
-            'Title' => 'Title'
-        ));
+			'Title' => 'Title'
+		));
 		
-        $documentsField = new GridField(
-            'Documents',
-            'Documents',
-            $this->owner->Documents(),
-            $config
-        );
+		$documentsField = new GridField(
+			'Documents',
+			'Documents',
+			$this->owner->Documents(),
+			$config
+		);
 		
 		$fields->addFieldToTab('Root.Documents', $documentsField);
 	}

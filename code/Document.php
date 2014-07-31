@@ -23,7 +23,7 @@ class Document extends DataObject {
 	}
 	
 	public function canCreate($member = NULL) { return TRUE; } 
-   	public function canEdit($member = NULL) { return TRUE; } 
+	public function canEdit($member = NULL) { return TRUE; } 
 	public function canDelete($member = NULL) { return TRUE; }
 	public function canView($member = NULL) { return TRUE; }
 	
